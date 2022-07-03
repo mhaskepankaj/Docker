@@ -1,0 +1,23 @@
+Start docker daemon :
+sudo service docker start
+
+Run alpine image in interactive mode :
+sudo docker run -it alpine sh
+
+Delete docker image:
+sudo docker rmi -f 5e28ba2b4cdb
+
+List docker images :
+sudo docker images
+
+List running containers
+sudo docker ps (-a)
+
+Kill running container :
+sudo docker kill 544317bfe4c4
+
+Delete docker image :
+sudo docker rmi -f 99ac47bda3da
+
+Docker exec -> enter inside docker container : 
+sudo docker exec -it 80ed401b9f5f /bin/sh
